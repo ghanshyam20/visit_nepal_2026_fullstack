@@ -3,6 +3,7 @@ import Highlights from "../components/Highlights";
 import DestinationsPreview from "../components/DestinationsPreview";
 import GalleryPreview from "../components/GalleryPreview";
 import CTASection from "../components/CTASection";
+import ContactSection from "../components/ContactSection";  // FIXED IMPORT
 
 export default function Home() {
   return (

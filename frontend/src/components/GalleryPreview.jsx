@@ -10,13 +10,26 @@ export default function GalleryPreview() {
       <h2>Photo Highlights</h2>
 
       <div className="gallery-grid">
-        <img className="uniform-img hover-img hover-card" src={img1} alt="Culture" />
-        <img className="uniform-img hover-img hover-card" src={img2} alt="Trekking" />
-        <img className="uniform-img hover-img hover-card" src={img3} alt="Wildlife" />
-        <img className="uniform-img hover-img hover-card" src={img4} alt="Temple" />
+        <div className="gallery-item hover-card">
+          <img className="gallery-img hover-img" src={img1} alt="" />
+        </div>
+
+        <div className="gallery-item hover-card">
+          <img className="gallery-img hover-img" src={img2} alt="" />
+        </div>
+
+        <div className="gallery-item hover-card">
+          <img className="gallery-img hover-img" src={img3} alt="" />
+        </div>
+
+        <div className="gallery-item hover-card">
+          <img className="gallery-img hover-img" src={img4} alt="" />
+        </div>
       </div>
 
-      <Link to="/gallery" className="view-more-btn">View Full Gallery →</Link>
+      <Link to="/gallery" className="view-more-btn">
+        View Full Gallery →
+      </Link>
     </section>
   );
 }
