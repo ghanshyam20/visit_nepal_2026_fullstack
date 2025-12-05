@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#cfe9ff"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#sky)"/>
+  <g fill="#9AC1D9">
+    <circle cx="980" cy="120" r="46"/>
+  </g>
+  <g>
+    <polygon points="150,500 420,160 690,500" fill="#6688aa"/>
+    <polygon points="380,500 700,220 1020,500" fill="#7aa0c0"/>
+    <polygon points="0,500 260,260 520,500" fill="#7ea7c6"/>
+    <polygon points="600,500 860,300 1120,500" fill="#6e94b1"/>
+  </g>
+  <rect y="500" width="1200" height="100" fill="#e9f2f8"/>
+</svg>

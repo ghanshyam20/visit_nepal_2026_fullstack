@@ -1,0 +1,32 @@
+.hero-section {
+  height: 90vh;
+background: url('../assets/images/hero.jpg') center/cover no-repeat;
+
+  position: relative;
+  padding-top: 120px; /* ⭐ prevents navbar overlap */
+}
+
+.hero-overlay {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  backdrop-filter: brightness(0.4);
+}
+
+.hero-subtitle {
+  color: #ddd;
+  font-size: 1.4rem;
+  margin-bottom: 25px;
+}
+
+.hero-btn {
+  padding: 12px 25px;
+  background: crimson;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
