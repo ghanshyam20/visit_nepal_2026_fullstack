@@ -1,4 +1,4 @@
-import './styles/hoverEffects.css';
+import "./styles/hover.css";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";

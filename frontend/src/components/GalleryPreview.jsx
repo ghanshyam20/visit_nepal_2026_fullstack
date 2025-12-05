@@ -1,3 +1,7 @@
+import img1 from "../assets/images/tharu.jpg";
+import img2 from "../assets/images/trek.jpg";
+import img3 from "../assets/images/rhino.jpg";
+import img4 from "../assets/images/janaki.jpg";
 import { Link } from "react-router-dom";
 
 export default function GalleryPreview() {
@@ -6,15 +10,13 @@ export default function GalleryPreview() {
       <h2>Photo Highlights</h2>
 
       <div className="gallery-grid">
-        <img src="/src/assets/images/trek.jpg" alt="Trek" />
-        <img src="/src/assets/images/ilam.jpg" alt="Ilam" />
-        <img src="/src/assets/images/janaki.jpg" alt="Temple" />
-        <img src="/src/assets/images/rhino.jpg" alt="Rhino" />
+        <img className="hover-img hover-card" src={img1} alt="" />
+        <img className="hover-img hover-card" src={img2} alt="" />
+        <img className="hover-img hover-card" src={img3} alt="" />
+        <img className="hover-img hover-card" src={img4} alt="" />
       </div>
 
-      <Link className="view-more-btn" to="/gallery">
-        View Full Gallery →
-      </Link>
+      <Link to="/gallery" className="view-more-btn">View Full Gallery →</Link>
     </section>
   );
 }
