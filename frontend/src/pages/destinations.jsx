@@ -1,7 +1,7 @@
 import pokhara from "../assets/images/pokhara.jpg";
 import kathmandu from "../assets/images/kathmandu.jpg";
 import lumbini from "../assets/images/lumbini.jpg";
-import "./Destinations.css";
+import "../components/Destinations.css";
 
 export default function Destinations() {
   return (
