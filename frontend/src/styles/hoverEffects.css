@@ -1,0 +1,23 @@
+/* Smooth hover zoom for all cards */
+.hover-card {
+  transition: transform 0.35s ease, opacity 0.35s ease;
+}
+
+.hover-card:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* For grid images */
+.dest-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.35s ease, opacity 0.35s ease;
+}
+
+.dest-img:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
